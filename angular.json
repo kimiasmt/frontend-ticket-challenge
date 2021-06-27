@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "df834ddb-f0c0-4537-ab02-10d606c0ae70"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -71,7 +74,7 @@
               "browserTarget": "cinema:build:production"
             },
             "development": {
-              "browserTarget": "cinema:build:development"
+              "browserTarget": "cinema:build:development",
             }
           },
           "defaultConfiguration": "development"

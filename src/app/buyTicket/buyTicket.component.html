@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="formcontainer">
+    <h3>enter row and column!</h3>
+    <input class="element" [formControl]="row" placeholder="row">
+    <input class="element" [formControl]="col" placeholder="column" (change)="checkIsFull()">
+    <div *ngIf="full" class="full-error">this seat is full!</div>
+    <button (click)="check()" [disabled]="full">buy</button>
+  </div>
+
+</div>
+

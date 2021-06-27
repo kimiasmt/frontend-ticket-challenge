@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+  display: block;
+  overflow: auto;
+  background-color: #52006b;
+  height: 100%;
+  z-index: 100;
+  /*width: 100%;*/
+}
+
